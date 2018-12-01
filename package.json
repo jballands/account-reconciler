@@ -1,0 +1,8 @@
+{
+  "name": "account-reconciler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jballands/account-reconciler",
+  "author": "Jonathan Ballands <jballands@gmail.com>",
+  "license": "MIT"
+}
