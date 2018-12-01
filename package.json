@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/jballands/account-reconciler",
   "author": "Jonathan Ballands <jballands@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "d3-dsv": "^1.0.10",
+    "minimist": "^1.2.0"
+  }
 }
