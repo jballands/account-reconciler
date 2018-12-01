@@ -1,13 +1,17 @@
 {
-  "name": "account-reconciler",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/jballands/account-reconciler",
-  "author": "Jonathan Ballands <jballands@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^2.4.1",
-    "d3-dsv": "^1.0.10",
-    "minimist": "^1.2.0"
-  }
+	"name": "account-reconciler",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/jballands/account-reconciler",
+	"author": "Jonathan Ballands <jballands@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"d3-dsv": "^1.0.10",
+		"immutable": "^4.0.0-rc.12",
+		"minimist": "^1.2.0"
+	},
+	"bin": {
+		"reconciler": "./index.js"
+	}
 }
